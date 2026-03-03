@@ -5,7 +5,12 @@ using System;
 Console.WriteLine("=== 직원 급여 시스템 ===");
 Console.WriteLine();
 
-Employee[] employees = new Employee[]
-{
-    new Manager { _}
-}
+Manager manager = new Manager("김부장", 5000000, 1000000);
+Developer developer = new Developer("이개발", 4000000, 10);
+Intern intern = new Intern("박인턴");
+
+manager.PrintInfo();
+Console.WriteLine();
+developer.PrintInfo();
+Console.WriteLine();
+intern.PrintInfo();
