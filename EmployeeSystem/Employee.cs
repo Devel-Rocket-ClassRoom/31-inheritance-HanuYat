@@ -87,7 +87,7 @@ class Intern : Employee
 
     public new int CalculatePay()
     {
-        return _baseSalary;
+        return base._baseSalary;
     }
 
     public new void PrintInfo()
